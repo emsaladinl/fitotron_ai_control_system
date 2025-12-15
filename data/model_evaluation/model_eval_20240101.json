@@ -1,0 +1,15 @@
+{
+  "date": "2024-01-01",
+  "timestamp": "2025-12-14T13:08:20.797272",
+  "forecast_metrics": {
+    "temp": {
+      "MAE_1m": 0.5,
+      "RMSE_1m": 0.5,
+      "bias_1m": 0.5,
+      "MAPE_1m": 2.499999875000006,
+      "corr_1m": 0.0,
+      "drift": 0.0
+    }
+  },
+  "pid_comparison": {}
+}

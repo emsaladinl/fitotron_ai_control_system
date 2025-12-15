@@ -1,0 +1,61 @@
+
+        <html><head><meta charset='utf-8'><title>Fitotron IA Train Report</title></head>
+        <body>
+        <h1>Fitotron IA Entrenamiento</h1>
+        <pre>{
+  "timestamp": "2025-12-14T17:04:20.661269",
+  "config": {
+    "window": 60,
+    "horizon": 60,
+    "epochs": 5,
+    "batch": 16,
+    "lr": 0.001,
+    "normalization": "zscore"
+  },
+  "metrics": {
+    "rmse": 0.544757604598999,
+    "mae": 0.1325969099998474,
+    "mape": 0.9475013017654419,
+    "r2": 0.6972438097000122,
+    "by_var": {
+      "temp": {
+        "RMSE": 0.15039020776748657,
+        "MAE": 0.07193473726511002,
+        "MAPE": 0.10501692444086075
+      },
+      "rh": {
+        "RMSE": 0.22043375670909882,
+        "MAE": 0.13028547167778015,
+        "MAPE": 0.8470736145973206
+      },
+      "co2": {
+        "RMSE": 0.29413825273513794,
+        "MAE": 0.16208261251449585,
+        "MAPE": 0.8181847929954529
+      },
+      "soil": {
+        "RMSE": 0.13729150593280792,
+        "MAE": 0.09884250909090042,
+        "MAPE": 0.11763795465230942
+      },
+      "ph": {
+        "RMSE": 0.9577502012252808,
+        "MAE": 0.18861424922943115,
+        "MAPE": 0.6679454445838928
+      },
+      "ec": {
+        "RMSE": 0.17898055911064148,
+        "MAE": 0.07347568869590759,
+        "MAPE": 0.08123601227998734
+      },
+      "par": {
+        "RMSE": 0.9754136204719543,
+        "MAE": 0.2029431313276291,
+        "MAPE": 3.9954147338867188
+      }
+    }
+  }
+}</pre>
+        <img src="plots/temp_series.png" style="max-width:800px"/><img src="plots/rh_scatter.png" style="max-width:800px"/><img src="plots/distributions.png" style="max-width:800px"/><img src="plots/correlation.png" style="max-width:800px"/><img src="plots/training_loss.png" style="max-width:800px"/><img src="plots/real_vs_pred.png" style="max-width:800px"/>
+        </body></html>
+        

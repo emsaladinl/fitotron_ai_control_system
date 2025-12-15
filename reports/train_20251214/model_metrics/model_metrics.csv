@@ -1,0 +1,4 @@
+variable,MAE_1m,MAE_5m,RMSE_1m,RMSE_5m,R2
+temp,,,,,1.0
+rh,,,,,1.0
+co2,,,,,1.0
