@@ -4,7 +4,7 @@ Sistema inteligente de control ambiental para fitotrón basado en ESP32 con sens
 
 # 🌱 Fitotron Inteligente — Control Ambiental con ESP32, MQTT e IA Neuro-PID
 
-El **Fitotron** es un sistema integral diseñado por **Willy Infante** para el control automatizado y predictivo del ambiente en cultivos de laboratorio o invernadero.  
+El **Fitotron** es un sistema integral diseñado por **Willy Infante** *Enrique Sañadin* y *Olivier Peguero* para el control automatizado y predictivo del ambiente en cultivos de laboratorio o invernadero.  
 Combina **microcontroladores ESP32**, **sensores ambientales**, **actuadores de climatización**, **servidores MQTT**, y un **modelo de inteligencia artificial Neuro-PID** que permite operar en modo **automático** o **manual**.
 
 ---
